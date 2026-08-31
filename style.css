@@ -33,7 +33,7 @@ table.rating tr:hover td{background:#fafbff}
 p{margin:10px 0}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:12px}
 .ccard{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.ccard-head{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
+.ccard-head{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}.ccard-brand{display:flex;align-items:center;gap:10px;min-width:0}.cname{font-weight:800;font-size:16px;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.col-logo .cname{display:block;margin-top:5px;font-size:13.5px}
 .ccard-rate{font-weight:800;font-size:14px}
 .ccard-body{padding:12px 14px}
 .feat{margin:0 0 10px;padding-left:18px;font-size:13.5px;color:#333}.feat li{margin:3px 0}
